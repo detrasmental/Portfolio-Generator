@@ -37,13 +37,15 @@ const promptUser = () => {
           default: true
         },
         {
-          type: 'input',
-          name: 'about',
-          message: 'Provide some information about yourself:',
-          when: ({ confirmAbout }) => confirmAbout
-        }
-      ]);
-    };
+            type: 'input',
+            name: 'about',
+            message: 'Provide some information about yourself:',
+            when: ({ confirmAbout }) => confirmAbout
+          }
+        ]);
+      };
+
+
     
 
   const promptProject = portfolioData => {
